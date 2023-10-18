@@ -1,0 +1,75 @@
+body {
+    background-color: burlywood;
+}
+
+header {
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav button {
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 10px;
+    border: none;
+    width: 80px;
+}
+
+button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    margin-top: 40px;
+}
+
+img {
+    width: 500px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.card {
+    padding-bottom: 10px;
+    width: 200px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 190px;
+    margin: 5px;
+}
+
+.card p {
+    padding: 0 5px;
+}
+
+.menus {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px auto;
+}
+
+.contact {
+    text-align: center;
+}
